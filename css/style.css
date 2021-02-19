@@ -1,4 +1,4 @@
-.jumbotron{ 
+.jumbo{ 
     padding: 5rem 1rem;
     margin-bottom: 5rem;
     background-image: url(/images/up1.jpg);
@@ -8,6 +8,8 @@
     background-attachment: fixed;
     min-height: 100vh;    
 } 
+
+
 
 .section{
     padding-top: 4rem;
