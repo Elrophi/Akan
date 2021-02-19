@@ -2,7 +2,7 @@
 
 ```This is a Form that allows one to pick their birthday on a date picker and it displays their Akan name depending on the day which they were born.```
 
->### Author: [El-rophi Skwaila](https://elrophi.github.io/Akan-Names/index.html)
+>### Author: [El-rophi Skwaila](https://elrophi.github.io/Akan/.)
 ---
 ___\*Click on author's name to access webpage*___
 
