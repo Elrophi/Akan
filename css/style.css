@@ -1,0 +1,25 @@
+.jumbotron{ 
+    padding: 5rem 1rem;
+    margin-bottom: 5rem;
+    background-image: url(/images/up1.jpg);
+    background-position: center;
+    border-radius: .3rem;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;    
+} 
+
+.section{
+    padding-top: 4rem;
+}
+
+#newsletter{
+    padding-top: 0;
+}
+
+.a{
+    text-decoration: none;
+    
+}
+
+ 
