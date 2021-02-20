@@ -7,9 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"> -->
 
 
     <title>Bootstrap used</title>
@@ -65,18 +65,21 @@
               </div>
               <div class="col">
                 <div class="form-outline">
-                  <select id="myForm5" class="form-select" aria-label="Default select example" required>
-                    <option value="1">Female</option>
-                    <option value="2">Male</option>
+                  <select id="gender" class="form-select" aria-label="Default select example" required>
+                      <option value="" selected>none</option>
+                    <option id="gender1" value="1">Female</option>
+                    <option id="gender2" value="2" >Male</option>
                   </select>
                 </div>
               </div>
               <!-- Button -->
               <div class="col">
                 <div class="form-outline">
-                  <button type="submit" class="btn btn-outline-success">Show Name</button>
+                  <button type="submit" class="btn btn-outline-success" onclick="getData()">Show Name</button>
                 </div>
               </div>
+              <p><strong>Birth Day is: </strong> <span id='result'></span></p>
+              <p><strong>Akan name is: </strong> <span id="result1"></span></p>
             </div>       
           </form>
         </div>
@@ -273,6 +276,7 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

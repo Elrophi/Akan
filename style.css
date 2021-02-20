@@ -1,12 +1,11 @@
 .jumbo{ 
     padding: 5rem 1rem;
     margin-bottom: 5rem;
-    background: tan;
-    /* background-image: url(/images/up1.jpg); */
-    /* background-position: center;
+    background-image: url(/images/up1.jpg);
+    background-position: center;
     border-radius: .3rem;
     background-size: cover;
-    background-attachment: fixed; */
+    background-attachment: fixed;
     min-height: 100vh;    
 } 
 
