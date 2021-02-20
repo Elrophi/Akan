@@ -15,146 +15,147 @@
     <title>Bootstrap used</title>
   </head>
   <body data-spy="scroll" data-bs-target="#navScrollspy">
-   <nav class="navbar bg-success navbar-dark navbar-expand-lg fixed-top">
-       <a href="#" class="navbar-brand"> <i class="fa fa-camera-retro" aria-hidden="true"></i> <img class="logo" src="/images/logo-removebg-preview.ico" alt="" height="50px" > Akan</a>
-       <button type="button" class="navbar-toggler navbar-toggler-right" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse" id="navbarNav">
-           <ul class="navbar-nav" id="navScrollspy"> 
-               <li class="nav-item">
-                   <a href="#top" class="nav-link">Home</a>
-               </li>
-               <li class="nav-item">
-                   <a href="#fill-form" class="nav-link">Form</a>
-               </li>
-               <li class="nav-item">
-                   <a href="#footer" class="nav-link">Contact</a>
-               </li>
-           </ul>
-       </div>
-   </nav>
+    <nav class="navbar bg-success navbar-dark navbar-expand-lg fixed-top">
+        <a href="#" class="navbar-brand"> <i class="fa fa-camera-retro" aria-hidden="true"></i> <img class="logo" src="/images/logo-removebg-preview.ico" alt="" height="50px" > Akan</a>
+        <button type="button" class="navbar-toggler navbar-toggler-right" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" id="navScrollspy"> 
+                <li class="nav-item">
+                    <a href="#top" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#fill-form" class="nav-link">Form</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#footer" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
    <section id="top" class="jumbo text-white d-flex justify-content-center align-items-center">
-       <div class="container text-center">
-           <h1 class="display-1 text-success text-uppercase">Welcome to Akan guess my name!</h1>
-           <p class="text-center">This an online form that exactly prints out your Akan name.
-            <br> Akan names are Ghanian names that are derived from the day<br>
-            in a week which one is born <em>(Sunday to Saturday)</em>.
-            <br> All you need to provide is your bithday information!
-            <br> Click the button below to fill our online form.</p>
-        <a class="btn btn-outline-success btn-lg" href="#fill-form"> EXPLORE!</a>
-       </div>
+        <!-- <div class="overlay"></div> -->
+        <div class="container text-center">
+            <h1 class="display-1 text-success text-uppercase">Welcome to Akan guess my name!</h1>
+            <p class="text-center">This an online form that exactly prints out your Akan name.
+             <br> Akan names are Ghanian names that are derived from the day<br>
+             in a week which one is born <em>(Sunday to Saturday)</em>.
+             <br> All you need to provide is your bithday information!
+             <br> Click the button below to fill our online form.</p>
+             <a class="btn btn-outline-success btn-lg" href="#fill-form"> EXPLORE!</a>
+        </div>
    </section>
 
-   <div class="container">       
-    <!-- Form -->
-    <section id="fill-form">
-        <div class="container form">
-          <h1>Find out your birth Name</h1><hr>
-          <!-- <small> CC is the first two digits of year of birth example: 1992 your CC is 19</small> -->
-          <form>  
-            <!-- option selctor -->
-            <div class="row mb-4">
-              <div class="col">
-                <div class="form-outline mb-4">
-                  <input type="date" name="date" id="date" class="form-control" required/>
-                  <label for="date">Date picker</label>
-                </div>
-              </div>
-              <div class="col">
-                <div class="form-outline">
-                  <select id="gender" class="form-select" aria-label="Default select example" required>
-                      <option value="" selected>none</option>
-                    <option  value="1">Female</option>
-                    <option  value="2" >Male</option>
-                  </select>
-                </div>
-              </div>
-              <!-- Button -->
-              <div class="col">
-                <div class="form-outline">
-                  <button type="submit" class="btn btn-outline-success" onclick="getData()">Show Name</button>
-                </div>
-              </div>
-              <p class="text-success"><strong>Birth Day is:  <span class="text-uppercase" id='result'></span> </strong></p>
-              <p class="text-success"><strong>Akan name is: <span class="text-uppercase" id="result1"></span> </strong> </p>
-            </div>       
-          </form>
-        </div>
-      </section>
-   </div>
-
-   <section class="sect-1">
-    <div class="overlay1"></div>
-    <div class="description1">
-        <h1>Fun fact about the Akan tribe!</h1>
-        <p>The Ashanti tribe of the Akan is the largest in Ghana. 
-           <br>Comprising around half of the country's population.
-           <br>A current stat places the number around <strong>11million</strong> in population</p>
-        <!-- <button class="btn btn-outline-warning btn-lg">READ MORE!</button> -->
-        <a href="#top" class="btn btn-outline-warning btn-lg">READ MORE!</a>
+    <div class="container">       
+         <!-- Form -->
+        <section id="fill-form">
+            <div class="container form">
+                <h1>Find out your birth Name</h1><hr>
+                <!-- <small> CC is the first two digits of year of birth example: 1992 your CC is 19</small> -->
+                <form>  
+                <!-- option selctor -->
+                    <div class="row mb-4">
+                        <div class="col">
+                            <div class="form-outline mb-4">
+                                <input type="date" name="date" id="date" class="form-control" required/>
+                                <label for="date">Date picker</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-outline">
+                                <select id="gender" class="form-select" aria-label="Default select example" required>
+                                    <option value="" selected>none</option>
+                                    <option  value="1">Female</option>
+                                    <option  value="2" >Male</option>
+                                </select>
+                            </div>
+                        </div>
+                      <!-- Button -->
+                        <div class="col">
+                            <div class="form-outline">
+                                <button type="submit" class="btn btn-outline-success" onclick="getData()">Show Name</button>
+                            </div>
+                        </div>
+                        <p class="text-success"><strong>Birth Day is:  <span class="text-uppercase" id='result'></span> </strong></p>
+                        <p class="text-success"><strong>Akan name is: <span class="text-uppercase" id="result1"></span> </strong> </p>
+                    </div>       
+                </form>
+            </div>
+        </section>
     </div>
-  </section>
+
+    <section class="sect-1">
+        <div class="overlay1"></div>
+        <div class="description1">
+            <h1>Fun fact about the Akan tribe!</h1>
+            <p>The Ashanti tribe of the Akan is the largest in Ghana. 
+               <br>Comprising around half of the country's population.
+               <br>A current stat places the number around <strong>11million</strong> in population</p>
+            <!-- <button class="btn btn-outline-warning btn-lg">READ MORE!</button> -->
+            <a href="#top" class="btn btn-outline-warning btn-lg">READ MORE!</a>
+        </div>
+    </section>
 
   <!-- projects section created using cards and a 3 grid system-->
-  <div class="container features" id="projects">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <h3 class="feature-title">Project 1</h3>
-        <img src="/images/1.jpeg" alt="">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-          Sunt quo reiciendis quaerat corrupti temporibus voluptatem 
-          doloremque accusantium sapiente. Quam molestiae corrupti 
-          ratione similique placeat fuga quaerat quia! Molestiae, 
-          dolorem totam!</p>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <h3 class="feature-title">Project 2</h3>
-        <img src="/images/2.jpeg" alt="">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-          Sunt quo reiciendis quaerat corrupti temporibus voluptatem 
-          doloremque accusantium sapiente. Quam molestiae corrupti 
-          ratione similique placeat fuga quaerat quia! Molestiae, 
-          dolorem totam!</p>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <h3 class="feature-title">Project 3</h3>
-        <img src="/images/3.jpeg" alt="">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-          Sunt quo reiciendis quaerat corrupti temporibus voluptatem 
-          doloremque accusantium sapiente. Quam molestiae corrupti 
-          ratione similique placeat fuga quaerat quia! Molestiae, 
-          dolorem totam!</p>
-      </div>
+    <div class="container features" id="projects">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">Project 1</h3>
+                <img src="/images/1.jpeg" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  Sunt quo reiciendis quaerat corrupti temporibus voluptatem 
+                  doloremque accusantium sapiente. Quam molestiae corrupti 
+                  ratione similique placeat fuga quaerat quia! Molestiae, 
+                  dolorem totam!</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">Project 2</h3>
+                <img src="/images/2.jpeg" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  Sunt quo reiciendis quaerat corrupti temporibus voluptatem 
+                  doloremque accusantium sapiente. Quam molestiae corrupti 
+                  ratione similique placeat fuga quaerat quia! Molestiae, 
+                  dolorem totam!</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">Project 3</h3>
+                <img src="/images/3.jpeg" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  Sunt quo reiciendis quaerat corrupti temporibus voluptatem 
+                  doloremque accusantium sapiente. Quam molestiae corrupti 
+                  ratione similique placeat fuga quaerat quia! Molestiae, 
+                  dolorem totam!</p>
+            </div>
+        </div>
     </div>
-  </div>
 
   <!-- Footer with a 2 grid system -->
-  <footer class="page-footer" id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-8 col-sm-12">
-          <h6 class="text uppercase font-weight-bold">Additinal info</h6>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Quis quasi, voluptas mollitia accusantium amet incidunt 
-            numquam illo eaque, sed, rerum inventore est repellendus 
-            explicabo quod aut possimus quaerat ullam tenetur.</p>
+    <footer class="page-footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <h6 class="text uppercase font-weight-bold">Additinal info</h6>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                      Quis quasi, voluptas mollitia accusantium amet incidunt 
+                      numquam illo eaque, sed, rerum inventore est repellendus 
+                      explicabo quod aut possimus quaerat ullam tenetur.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <p>1100 Athiriver, Machakos, Kenya
+                      <br>info@mail.Com
+                      <br>+254 000 000
+                      <br>+812 000 000
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <h6 class="text-uppercase font-weight-bold">Contact</h6>
-          <p>1100 Athiriver, Machakos, Kenya
-            <br>info@mail.Com
-            <br>+254 000 000
-            <br>+812 000 000
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- bottom footer -->
-    <div class="footer-copyright text-center"> &copy; 2021 copyright-Akan.nameguess.com</div>
-  </footer>
+      <!-- bottom footer -->
+        <div class="footer-copyright text-center"> &copy; 2021 copyright-Akan.nameguess.com</div>
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
