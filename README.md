@@ -13,11 +13,32 @@ ___\*Click on author's name to access webpage*___
 >-CSS
 >-JavaScript
 
-### Installation
+### Installation and setup
 1. Clone to Local Machine on terminal or copy the link from github
+1. Use any compiler for HTML,CSS AND JAVASCRIPT.
 1. Use the Live Server to run the live site
 1. Done
 
+### BDD FOR THE AKAN NAMES PROJECT
+| BIRTHDAY     |GENDER| CHECK    | RESPONSE |
+| ------------ | ------|---| ---------|
+|FRI APRIL 1995  | MALE/FEMALE | DAY(FRI) AND GENDER(MALE)| AKAN NAME IS "KOFI"
+|MON DEC 2020 |  MALE/FEMALE  | DAY(MON) AND GENDER(FEMALE)| AKAN NAME "AFUA"
+
+>Function used in the project
+
+```javascript
+function getData(){
+    document.getElementById('').value;
+    if(){
+
+    }else if{
+
+    }
+
+}
+```
+---
 ### Email: Elrophi@gmail.com
 ### Contact: 0700 000 000
 
