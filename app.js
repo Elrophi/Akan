@@ -50,7 +50,7 @@ function getData(){
     }else if (mdate == days[5] && gender == 2){
         console.log(mNames[5]);
         var name5 =mNames[5];
-        document.getElementById('result').innerHTML=name5;
+        document.getElementById('result1').innerHTML=name5;
          document.getElementById('date').value = '';
          document.getElementById('gender').value = '';
     }else if (mdate == days[6] && gender == 2){
