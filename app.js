@@ -10,6 +10,10 @@ function getData(){
     var gender = document.getElementById('gender').value;
     // var gender2 = document.getElementById('gender2').value;
     console.log(gender)
+    if(date == "" && gender != 0 || gender != 1){
+        alert("please select the date and gender")
+    }else
+        alert("you are all set!")
 
     //getdate and pick day
     let fdate = new Date(date).toDateString();
